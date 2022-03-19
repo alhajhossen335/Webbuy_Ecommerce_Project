@@ -1,0 +1,140 @@
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@400;700&family=Montserrat:wght@400;600;700&family=Mulish:wght@400;600;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&family=Crimson+Text&display=swap" rel="stylesheet">
+
+font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Josefin Sans', sans-serif;
+
+paste: #51A9A8; #50A9A8; #44A08D;
+purple: #9b59b6;
+red: #EA425C;
+yellow: #F3B431;
+.col-12.col-sm-3.col-md-3.col-lg-3.col-xl-3
+
+<h5>   </h5>
+<ul>   
+<li>   
+</li>
+</ul>
+<div class="card">
+                                        <img class="card-img-top img-fluid" src="images/box-4-1.jpg" alt="Card image cap">
+                                        <div class="card-body">  
+                                            <p class="card-text">
+                                                <div class="ratings">
+                                                    <ul>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><span>(0)</span></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#">OPPO F15 2020 8GB/128GB...</a>
+                                                <p>৳26,990</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top img-fluid" src="images/box-4-2.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <div class="ratings">
+                                                    <ul>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><span>(0)</span></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#">Huawei Mate 30 Pro 8...</a>
+                                                <p>৳99,999</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top img-fluid" src="images/box-4-3.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <div class="ratings">
+                                                    <ul>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><span>(0)</span></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#">Samsung Galaxy A51...</a>
+                                                <p>৳29,999</p>
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+<div class="card-group text-center">
+                                    <div class="card">
+                                        <img class="card-img-top img-fluid" src="images/box-4-4.jpg" alt="Card image cap">
+                                        <div class="card-body">  
+                                            <p class="card-text">
+                                                <div class="ratings">
+                                                    <ul>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><span>(0)</span></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#">OPPO F15 2020 8GB/128GB...</a>
+                                                <p>৳26,990</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top img-fluid" src="images/box-4-5.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <div class="ratings">
+                                                    <ul>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><span>(0)</span></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#">Huawei Mate 30 Pro 8...</a>
+                                                <p>৳99,999</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top img-fluid" src="images/box-4-6.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <div class="ratings">
+                                                    <ul>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                        <li><span>(0)</span></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#">Samsung Galaxy A51...</a>
+                                                <p>৳29,999</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>

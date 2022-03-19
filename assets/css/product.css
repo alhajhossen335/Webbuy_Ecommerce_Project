@@ -1,0 +1,251 @@
+/* Category Products */
+.category-products,
+.subcategory-products,
+.product-details{
+    margin-bottom: 50px;
+}
+.breadcrumb{
+    background-color: transparent;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.breadcrumb-item a{
+    color:  #909497;
+}
+.breadcrumb-item.active{
+    color: #44A08D;
+}
+.filter{
+    width: 240px;
+}
+.filter-names{
+    width: 70%;
+}
+.filter-carets{
+    width: 30%;
+} 
+.filter .fa{
+    margin-left: 10px;
+    color: rgba(208, 211, 212);
+}
+.product-single-block{
+    height: 218px;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+}
+.product-single-block:hover{
+    box-shadow: 0px 0px 10px 8px rgba(208, 211, 212, 0.5);
+}
+.product-single-block img{
+    width: 130px;
+    height: 130px;
+    padding-top: 10px;
+}
+.product-single-block a{
+    text-decoration: none;
+}
+.product-single-block .ratings ul{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.bdt{
+    font-size: 30px;
+}
+
+
+/* Product Detail Page */
+.product-detail-box{
+    height: 465px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+    box-shadow: 0 8px 16px 0 rgba(75,104,123,0.2), 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+.product-detail-box .ratings ul{
+    margin: 15px 0 5px;
+}
+.product-detail-box h3{
+    color: black;
+}
+.product-detail-box .border-bottom{
+    border-bottom: 1px dotted lightgrey !important;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 415px;
+}
+.brand{
+    color:#44A08D;
+}
+.warranty,
+.update{
+    color: #11A0DB;
+}
+.add-cart-btn,
+.buy-now,
+.continue,
+.checkout{
+    background-color:#6A89CC;
+    color: #fff;
+    width: 195px;
+    line-height: 35px;
+}
+.add-cart-btn,
+.checkout{
+    background-color:#EA7773;
+    margin-right: 15px;
+}
+.detail-info-box{
+    margin: 55px 80px 100px 20px;
+}
+.description-title,
+.description{
+    border: 1px solid lightgrey;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.product-details img{
+    padding-top: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+.modal-text,
+.category-product-price,
+.product-remove .fa{
+    color: #EA425C;
+}
+
+.control-quantity{
+    margin-left: 3px;
+    margin-bottom: 32px;
+}
+
+#increase-quantity,
+#decrease-quantity,
+#quantity{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid lightgrey;
+}
+#quantity{
+    padding: 4px 11px;
+    border: 0;
+}
+#increase-quantity,
+#decrease-quantity{
+    cursor: pointer;
+}
+
+/* Shopping Cart */
+.table thead th {
+    border-top: 0;
+    border-bottom: 1px solid #dee2e6;
+    color: #44A08D;
+}
+.cart-details .table thead th:first-child{
+    padding-right: 40px;
+}
+.table{
+    border-bottom: 1px solid #dee2e6;
+}
+.product-description{
+    padding: 50px 0 !important;
+}
+.product-price,
+.product-quantity,
+.product-subtotal,
+.product-remove{
+    padding: 75px 0 !important;
+}
+
+.product-quantity input{
+    width: 70px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.update{
+    font-size: 14px;
+}
+.cart-details img,
+.order-details img{
+    width: 170px;
+    height: 170px;
+}
+.product-description p:first-child{
+    font-size: 18px;
+}
+.product-description p{
+    font-family: 'Crimson Text', serif;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.product-remove .fa{
+    font-size: 25px;
+}
+.product-thumbnail{
+    width: 490px;
+}
+
+.product-thumbnail a,
+.product-thumbnail div,
+.single-item a,
+.single-item div{
+    float: left;
+}
+
+.continue,
+.checkout{
+    margin: 40px 15px 80px;
+}
+
+/* Checkout */
+.checkout-details{
+    margin-bottom: 100px;
+}
+.checkout-details h5
+.thank-you p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.thank-you p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+.checkout-details label,
+.checkout-details button,
+.checkout-details h6{
+    font-family: 'Lato', sans-serif;
+}
+
+.order-summary{
+    background-color: #f1f1f1;
+    width: 380px;
+}
+.order-summary .border-bottom,
+.border-top{
+    width: 295px;
+}
+.single-item img{
+    width: 80px;
+    height: 80px;
+}
+.single-item img,
+.single-item div{
+    float: left;
+}
+
+.address-info input,
+.checkout-btn{
+    width: 500px;
+}
+
+/* Order Detail */
+.order-detail-btn{
+    background-color:#6A89CC;
+}
+
+.order-details table{
+    border-bottom: 0;
+}

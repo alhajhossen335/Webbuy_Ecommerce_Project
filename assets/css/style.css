@@ -1,0 +1,504 @@
+/* Full body */
+.common-block{
+    width: 1180px;
+    margin: auto;
+}
+/* Header onscroll fixed */
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color:  #f0f0f0;
+    opacity: 0.9;
+}
+/* Top header */
+.top-header .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(81, 169, 168)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.search-box .form-control{
+    width: 500px;
+    margin-left: 50px;
+}
+.search-box .btn,
+.sign-up-mail .btn,
+.contact-btn,
+.checkout-btn,
+.order-detail-btn{
+    line-height: 38px;
+    padding: 0 30px;
+    border: 0;
+    color: white;
+    background: #44A08D;
+}
+
+.top-links ul li a{
+    font-size: 13px;
+    padding: 6px 10px;
+    margin: 3px 10px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-links ul li a .fa{
+    padding-right: 5px;
+}
+.red-color{
+    background-color: #EA425C;
+}
+.yellow-color{
+    background-color: #F3B431;
+}
+.purple-color{
+    background-color: #9b59b6;
+}
+.purple-color span{
+    font-size: 10px;
+    font-weight: bold;
+    background-color: white;
+    color: grey;
+    padding: 2px 5px;
+    border-radius: 20px;
+}
+
+/* Bottom-header */
+.bottom-header .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.bottom-header{
+    background: #44A08D;
+}
+.bottom-header .navbar{
+    padding: 0;
+}
+.bottom-header .nav-link{
+    color: white;
+    background-color: transparent;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    padding: 8px 20px;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+.bottom-header .nav-link:hover{
+    background-color: white;
+    color:#4ECDC4;
+}
+.dropdown-menu{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    left: 10px;
+    box-shadow:rgb(225, 225, 225) 0px 1px 3px 0px;
+}
+.bottom-header .dropdown-item{
+    font-family: 'Mulish', sans-serif;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.bottom-header .dropdown-item:hover{
+    background-color: rgb(225, 225, 225, 0.5);
+    color: #44A08D;
+}
+.bottom-header .dropdown-item:hover .hover-effect{
+    transform: translateX(7px);
+    transform-style: preserve-3d;
+    transition: all 0s ease 0s;
+}
+.bottom-header .dropdown-item:hover .bold{
+    transform: translateX(0px);
+}
+.bottom-header .dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
+.bold{
+    font-weight: 600;
+    color: black;
+}
+.submenu{
+    width: 420px;
+}
+.submenu-mobile-accessories,
+.submenu-computer-accessories{
+    width: 48%;
+    float: left;
+    padding-right: 10px;
+}
+
+/* Slider-menu*/
+.slider-menu-list{
+    border: 1px solid #808080; 
+}
+.slider-menu-list li{
+    list-style-type: none;
+    display: inline-block;
+}
+.slider-menu-list li a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: #606060;
+    padding: 10px 25px;
+}
+.slider-menu-list li a:hover{
+    opacity: 0.5;
+}
+
+/* Hot deals */
+.hot-deals-title p{
+    background-color:#F3B431;
+    color: #fff; 
+    line-height: 30px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 43px;
+    margin-bottom: 0;
+}
+.hot-deals .card-group{ 
+    margin-top: 0;
+    margin-bottom: 40px;
+    border-bottom: 13px solid #F3B431;
+}
+.hot-deals .card-text,
+.products .card-text{
+    margin-bottom: 0;
+}
+
+.hot-deals .card a,
+.products .card a{
+    text-decoration: none;
+    display: block;
+    padding-bottom: 10px;
+    color: #9b59b6;
+    font-family: 'Lato', sans-serif;
+}
+
+.hot-deals .card p,
+.products .card p{
+    color:#EA425C;
+}
+.hot-deals .card .btn{
+    background-color:#44A08D;
+    color: white;
+    width: 140px;
+    margin: 0 auto;
+}
+.card-img-top{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+/* Ratings part */
+.ratings ul,
+.lists ul{
+    padding-left: 0;
+}
+.ratings ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.ratings ul li .fa{
+    color: #FBCD01;
+}
+.ratings ul li span{
+    color: #EA425C;
+    padding-left: 5px;
+}
+.ratings ul li span:hover{
+    color: #44A08D;
+}
+
+/* Main body */
+
+/* common-part */
+.products img{
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+}
+.products .card-body{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.products .card{
+    padding-bottom: 10px;
+    border-radius: 0;
+    cursor: pointer;
+    height: 248px;
+}
+.products .card a{
+    font-size: 13px;
+}
+.products .card p{
+    font-size: 12px;
+}
+.products .ratings ul{
+    margin-bottom: 5px;
+}
+.products .ratings ul li{
+    padding: 5px 0;
+}
+
+.offer,
+.offer img{
+    height: 100%;
+}
+
+.category{
+    height: 495px;
+    border-left: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+.category-title{
+    border-bottom: 1px solid lightgrey;
+}
+.category-menu a{ 
+    display: block;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #808080;
+    padding: 12px 0 12px 10px;
+}
+
+/* Smartphones */
+.smartphones .common-block{
+    border-top: 6px solid #EF4923; 
+    margin-bottom: 40px;
+}
+.smartphones .category-title h3{ 
+    color: #EF4923;
+    font-family: 'Roboto', sans-serif;
+}
+.smartphones .category-menu a:hover{
+    background-color: #EF4923;
+    color: white;
+}
+
+.smartphones .category-menu a,
+.mobile-accessories .category-menu a,
+.computer-accessories .category-menu a,
+.laptop .category-menu a,
+.lifestyle .category-menu a{
+    border-bottom: 1px solid lightgrey;
+}
+.smartphones .category-menu a:last-child,
+.mobile-accessories .category-menu a:last-child,
+.computer-accessories .category-menu a:last-child,
+.laptop .category-menu a:last-child,
+.lifestyle .category-menu a:last-child{
+    border-bottom: 0;
+}
+
+/* Mobile accessories */
+.mobile-accessories .common-block{
+    border-top: 6px solid #92278f; 
+    margin-bottom: 40px;
+}
+.mobile-accessories .category-title h3{ 
+    color: #92278f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+.mobile-accessories .category-menu a:hover{
+    background-color: #9b59b6;
+    color: white;
+}
+
+/* Computer accessories */
+.computer-accessories .common-block{
+    border-top: 6px solid #EA425C; 
+    margin-bottom: 40px;
+}
+.computer-accessories .category-title h3{ 
+    color: #EA425C; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+.computer-accessories .category-menu a:hover{
+    background-color: #EA425C;
+    color: white;
+}
+
+/* Laptop */
+.laptop .common-block{
+    border-top: 6px solid #218F76; 
+    margin-bottom: 40px;
+}
+.laptop .category-title h3{ 
+    color: #218F76;
+    font-family: 'Roboto', sans-serif;
+}
+.laptop .category-menu a:hover{
+    background-color: #218F76;
+    color: white;
+}
+
+/* Lifestyle */
+.lifestyle .common-block{
+    border-top: 6px solid #1287A5; 
+    margin-bottom: 40px;
+}
+.lifestyle .category-title h3{ 
+    color: #1287A5;
+    font-family: 'Roboto', sans-serif;
+}
+.lifestyle .category-menu a:hover{
+    background-color: #1287A5;
+    color: white;
+}
+
+/* Footer */
+.user-footer{
+    margin-top: 100px;
+}
+.top-footer,
+.middle-footer{
+    background-color: #F1F1F1;
+}
+.top-footer .common-block{
+    border-bottom: 1px solid darkgray;
+}
+.middle-footer{
+    padding: 40px 0;
+}
+
+/* Link list */
+.lists{
+    padding: 40px 40px 30px;
+}
+.lists-title{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.lists ul li{
+    list-style-type: none;
+    padding: 7px 0;
+}
+.lists ul li a{
+    text-decoration: none;
+    color: #606060;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+.lists ul li .fa{
+    padding-right: 8px;
+    color: #606060;
+}
+.extra-gap{
+    padding-top: 10px;
+}
+
+/* Newsletter, Sign Up Mail, Follow link */
+.newsletter,
+.follow-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.sign-up-mail .form-control{
+    width: 400px;
+    height: 40px;
+    border: 0;
+    border-radius:7px;
+    padding-left: 10px;
+    background-color: white;
+}
+.follow-link{
+    margin-right: 8px;
+}
+
+/* Social links */
+.social-links ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 7px;
+}
+.social-links ul li a{
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    color: #44A08D;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 8px 14px;
+} 
+
+/* Bottom footer */
+.bottom-footer{
+    text-align: center;
+    background-color: #222222;
+    color: #606060;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    padding: 15px;
+}
+
+/* User Contact Form */
+.contact-icons,
+.contact-text{
+    background: #44A08D;;
+    color: #fff;
+    width: 100px;
+    height: 90px;
+    margin: 20px 0;
+}
+.contact-icons .fa{
+    font-size: 30px;
+}
+.contact-text{
+    background: #F1F1F1;
+    color: black;
+    width: 400px;
+    padding: 20px 75px;
+}
+
+.map{
+    margin-top: 92px;
+}
+.contact-us{
+    margin-top: 88px;
+}
+.query-title{
+    margin: 50px 0px 0px 60px;
+}
+.user-contact-form{
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.user-contact-form input,
+.user-contact-form textarea{
+    border: 0;
+    background: #F1F1F1;
+}
+.user-contact-form input{
+    width: 28%;
+    height: 60px;
+    margin: 20px 18px;
+    padding-left: 20px;
+}
+.user-contact-form textarea{
+    margin: 10px 18px;
+    width: 91%;
+    height: 180px;
+    padding: 20px;
+}
+.contact-btn{
+    margin-left: 20px;
+    line-height: 50px;
+    padding: 0 55px;
+    margin-top: 30px;
+}
